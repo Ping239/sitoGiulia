@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giulia - Moda Minimalista</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: sans-serif;
+        background-color: #fff;
+        color: #000;
+      }
+      header {
+        padding: 2rem;
+        text-align: center;
+        border-bottom: 1px solid #000;
+      }
+      .hero {
+        height: 80vh;
+        background: url('img/hero-image.jpg') center/cover no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 1rem;
+        padding: 2rem;
+      }
+      .gallery img {
+        width: 100%;
+        display: block;
+      }
+      footer {
+        padding: 2rem;
+        text-align: center;
+        border-top: 1px solid #000;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>GIULIA</h1>
+      <p>Capi genderless, stile minimalista</p>
+    </header>
+    <section class="hero">
+      GIULIA
+    </section>
+    <section class="gallery">
+      <img src="img/capo1.jpg" alt="Capo 1" />
+      <img src="img/capo2.jpg" alt="Capo 2" />
+      <img src="img/capo3.jpg" alt="Capo 3" />
+    </section>
+    <footer>
+      <p>© 2025 Giulia. Tutti i diritti riservati.</p>
+    </footer>
+  </body>
+</html>
